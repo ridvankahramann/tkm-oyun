@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 20px;
+}
+
+.header > h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  background-color: #5F9EA0;
+  color: white;
+}
+
+.container > h1 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.skorbord {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.skorbord > div {
+  padding: 10px;
+}
+
+.status {
+  text-align: center;
+  font-size: 30px;
+}
+
+.images-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.images-div > div {
+  margin: 20px;
+}
+
+.rock {
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.rock:hover{
+  transform: scale(0.9, 0.9);
+}
+
+.rock:hover::after {
+  opacity: 1;
+}
+
+.paper {
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.paper:hover{
+  transform: scale(0.9, 0.9);
+}
+
+.paper:hover::after {
+  opacity: 1;
+}
+
+.scissors {
+  cursor: pointer;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.scissors:hover{
+  transform: scale(0.9, 0.9);
+}
+
+.scissors:hover::after {
+  opacity: 1;
+}
+
+.green-win{
+  border: 3px solid #32CD32;
+}
+
+.red-lost{
+  border:3px solid #FF0000;
+}
+
+.orange-together{
+  border:3px solid #FFA500;
+}
